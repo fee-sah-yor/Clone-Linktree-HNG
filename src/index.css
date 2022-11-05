@@ -106,6 +106,8 @@ footer {
   justify-content: space-between;
 }
 
+/* ---------------CONTACT FORM------------------- */
+
 @media (max-width: 767px) {
   .profilePhoto {
     margin-left: 2rem;
