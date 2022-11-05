@@ -232,7 +232,7 @@ button:hover {
 
   #first_name,
   #last_name {
-    width: 23rem;
+    width: 100%;
   }
 
   footer {
