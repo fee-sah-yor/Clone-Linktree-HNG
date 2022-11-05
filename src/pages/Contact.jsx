@@ -39,7 +39,7 @@ const Contact = () => {
                             <label for="t and c">You agree to providing your data to Fisayo who may contact you</label>
                             <input type="checkbox" name="t and c" value="t and c" />
                         </div>
-                        <button type="submit" className="submit">Send message</button>
+                        <button type="submit" className="submit" id='btn__submit'>Send message</button>
 
                     </form>
                 </div>
