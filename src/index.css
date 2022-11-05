@@ -107,6 +107,115 @@ footer {
 }
 
 /* ---------------CONTACT FORM------------------- */
+.container {
+  height: auto;
+  align-items:left;
+}
+
+.sub_container{
+    max-width: 50vw;
+    margin: 5rem auto 0;
+}
+
+.container h1,
+.container h5 {
+  text-align: left;
+  margin-bottom: 1.5rem;
+}
+
+.container h1 {
+  color: #101828;
+  font-size: 2.2rem;
+}
+
+.container  h5{
+  color: #475467;
+}
+
+form {
+  margin: 3rem 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.inputbox {
+  display: flex;
+  flex-direction: wrap;
+  align-items: center;
+  gap: 2rem;
+}
+
+#first_name,
+#last_name {
+  width: 23rem;
+}
+
+label {
+  display: block;
+  text-align: left;
+  margin-bottom: 0.4rem;
+  color: #344054;
+}
+
+input[type='text'],
+input[type='email'] {
+  width: 100%;
+  padding: 0.6rem;
+  border-radius: 0.5rem;
+  border: 1.5px solid #667085;
+  margin-bottom: 0.25rem;
+}
+/* 
+input[type='text'].error,
+input[type='email'].error {
+  border: 2px solid rgba(226, 2, 2, 0.74);
+}
+
+.m {
+  margin-bottom: 1.25rem;
+} */
+
+.checkbox {
+ 
+}
+
+input[type='checkbox'] {
+  height: 1rem;
+}
+
+/* label.checking {
+  padding-top: 0.4rem;
+  font-size: 0.95rem;
+} */
+
+input:focus {
+  outline: none;
+  border: 1.5px solid #b2ddff;
+}
+
+#message {
+  padding-bottom: 8.25rem;
+  width:100%;
+}
+
+button {
+  background-color: #1570ef;
+  color: #ffff;
+  margin-top: 1.5rem;
+  padding: 1rem;
+  width: 100%;
+  font-weight: bold;
+  border-radius: 0.5rem;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #1570efb8;
+}
+
+
 
 @media (max-width: 767px) {
   .profilePhoto {
@@ -116,8 +225,34 @@ footer {
   main .buttons a {
     width: 95%;
   }
+  .container {
+    max-width: 95vw;
+    margin: 5rem auto 0;
+  }
 
-  footer,
+  /* .names {
+    display: block;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+  } */
+
+  #first_name,
+  #last_name {
+    width: 100%;
+  }
+
+  footer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+
+  footer img {
+    margin: 1rem 0;
+  }
+
   .share_icon {
     display: none;
   }
